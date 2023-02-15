@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>grid</title>
+    <style media="screen">
+      .grid-container{
+        display: grid;
+        background-color: aqua;
+        grid-template-areas:
+                     "box1 box2 box2 "
+                     "box1 box3 box5 "
+                     "box4 box4 box5 "
+                 ;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-gap: 10px;
+      }
+      .box1{
+        background-color:green;
+        border:3px solid black;
+        grid-area: box1;
+        height:100px;
+        text-align: center;
+
+      }
+      .box2{
+        background-color:green;
+        border:3px solid black;
+        grid-area: box2;
+      }
+      .box3{
+        background-color:green;
+        border:3px solid black;
+        grid-area: box3;
+      }
+      .box4{
+        background-color:green;
+        border:3px solid black;
+        grid-area: box4;
+      }
+      .box5{
+        background-color:green;
+        border:3px solid black;
+        grid-area: box5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="box1">
+
+      </div>
+      <div class="box2">
+
+      </div>
+      <div class="box3">
+
+      </div>
+      <div class="box4">
+
+      </div>
+      <div class="box5">
+
+      </div>
+      </div>
+
+  </body>
+</html>
+

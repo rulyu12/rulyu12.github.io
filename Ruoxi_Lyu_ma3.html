@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ruoxi_Lyu_ma3</title>
+  <style media="screen">
+    .grid-container{
+      display: grid;
+      grid-template-areas:
+                   "box1 box1 box1 box1 box1 box1"
+                   "box2 box3 box3 box3 box3 box4"
+                   "box2 box3 box3 box3 box3 box4"
+                   "box2 box3 box3 box3 box3 box4"
+                   "box2 box3 box3 box3 box3 box4"
+                   "box5 box5 box5 box5 box5 box5"
+               ;
+      grid-gap: 4px;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    }
+    .box1 {
+      background-color : #FFB6C1;
+      grid-area: box1;
+      height:100px;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+
+    }
+    .box2 {
+      background-color: #FFB6C1;
+      grid-area: box2;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+      
+    }
+    .box3 {
+      background-color: #FFB6C1;
+      grid-area: box3;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+            }
+    
+    .box4 {
+      background-color : #FFB6C1;
+      grid-area:box4;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .box5 {
+      background-color : #FFB6C1;
+      grid-area:box5;
+    }
+    .bar{
+      width:60px;
+      height:60px;
+      background-color:#8B008B;
+    }
+    .bar:hover{
+      width:120px;
+      height:120px;
+      transition :.5s;
+      background-color:#B22222;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="box1">
+    <h1 class = "head">Ruoxi's Website </h1>
+    </div>
+    <div class="box2">
+    </div>
+    <div class="box3">
+      <div class="bar">
+      </div>
+      </div>
+    <div class="box4">
+      </div>
+    <div class="box5">
+    </div>
+  </div>
+</body>
+
